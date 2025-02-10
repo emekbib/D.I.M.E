@@ -8,8 +8,8 @@
 @media only screen and (min-width: 0em) {
     // Website colors
     :root {
-        --primary: #ffba19;
-        --primaryLight: #ffd675;
+        --primary: #c1af74;
+        --primaryLight: #e3d19f;
         --secondary: #001f3f;
         --secondaryLight: #001f3f;
         --headerColor: #1a1a1a;
@@ -74,7 +74,7 @@
         line-height: calc(50 / 16 * 1em);
         font-weight: bold;
         // Transition Properties
-        color: #000;
+        color: #80692b;
         transition: color 0.3s;
         transition-delay: 0.1s;
         text-align: center;
@@ -867,7 +867,7 @@
             align-items: center;
             /* margin-right auto pushes everything away from it to the right */
             margin: 0 auto 0 0;
-            height: calc(65 / 16 * 1rem);
+            height: calc(89 / 16 * 1rem);
             max-width: calc(350 / 16 * 1rem);
             width: 18.4%;
             padding: 0;
@@ -1207,7 +1207,7 @@
             .logo {
                 display: inline-block;
                 margin: auto;
-                margin-bottom: calc(30 / 16 * 1em);
+                     
                 height: calc(32 / 16 * 1em);
                 width: auto;
                 text-align: center;
@@ -1364,7 +1364,7 @@
 
             .logo {
                 margin-left: 0;
-                height: calc(40 / 16 * 1rem);
+                height: calc(80 / 16 * 1rem);
                 text-align: left;
             }
 

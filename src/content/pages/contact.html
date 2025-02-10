@@ -31,15 +31,19 @@ permalink: 'contact/'
     <!-- ============================================ -->
 
     <section id="cs-contact">
+        
         <div class="cs-container">
-            <form id="cs-form" name="Contact Form" method="post">
+            
+            <form id="cs-form"  name="Contact Form" method="post">
                 <div class="cs-content">
                     <span class="cs-topper">Contact</span>
                     <h2 class="cs-title">Get in Touch</h2>
                     <p class="cs-text">
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ridiculus elementum ullamcorper ipsum porttitor aliquam. Id magna urna ultrices odio pulvinar. Sed ut.
                     </p>
+                    <div id="responseMessage">dsadasd</div>
                 </div>
+                
                 <label>
                     Name
                     <input required type="text" id="name" name="name" placeholder="Name">
@@ -54,13 +58,13 @@ permalink: 'contact/'
                 </label>
                 <label>
                     How Did You Find Us
-                    <input type="text" id="find" name="find-us" placeholder="How did you find us?">
+                    <input type="text" id="find" name="howDidYouFindUs" placeholder="How did you find us?">
                 </label>
                 <label class="cs-label-message">
                     Message
-                    <textarea required name="Message" id="message" placeholder="Write message..."></textarea>
+                    <textarea required name="message" id="message" placeholder="Write message..."></textarea>
                 </label>
-                <button class="cs-button-solid" type="submit">Submit Message</button>
+                <button class="cs-button-solid"  type="submit">Submit Message</button>
             </form>
             <div class="cs-right-section">
                 <!--Email-->
@@ -92,4 +96,5 @@ permalink: 'contact/'
             </div>
         </div>
     </section>
+  
 {% endblock %}

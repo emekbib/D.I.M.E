@@ -3,6 +3,17 @@
 <---          Contact           -->
 <--- -------------------------- -*/
 /* Mobile - 360px */
+#responseMessage{
+  background :rgb(255, 158, 158);
+  margin:20px 0px;
+  padding:5px 5px;
+  border-radius: 6px;
+  border:1px solid rgb(70, 0, 0);
+  color:rgb(70, 0, 0);
+  text-transform: capitalize;
+  font-size: 12px;
+  display: none;
+}
 @media only screen and (min-width: 0em) {
   :root {
     /* 13px - 16px */

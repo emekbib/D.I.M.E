@@ -31,3 +31,35 @@ for (const item of dropDowns) {
 	};
 	item.addEventListener('click', onClick);
 }
+document.getElementById('cs-form').addEventListener('submit', async function (event) {
+	event.preventDefault(); // Prevent form from submitting the traditional way
+	console.log('this', this, event)
+	// Collect form data
+	const formData = new FormData(this);
+	const messageBox = document.getElementById('responseMessage');
+	console.log('formData', formData)
+	const formValues = {};
+	formData.forEach((value, key) => {
+		formValues[key] = value;
+	});
+	console.log('Form Values:', formValues); // Log all input values
+	const contactUsEndpoint = 'http://localhost/dims/contact-us.php';
+	// Send form data to the server using fetch
+	try {
+		const response = await fetch(contactUsEndpoint, {
+			method: 'POST',
+			headers: {
+                'Content-Type': 'application/json'
+            },
+            body: JSON.stringify(formValues) 
+		});
+ 
+		const result = await response.json(); // Parse the response
+		messageBox.style.display = 'block';
+		messageBox.textContent = result.message;
+	} catch (error) {
+		messageBox.style.display = 'block';
+		messageBox.textContent = 'An error occurred. Please try again';
+		console.error('Error:', error);
+	}
+ });

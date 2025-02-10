@@ -1,15 +1,15 @@
 {
     "name": "Code Stitch Web Designs",
-    "email": "help@codestitch.app",
+    "email": "michealabebe@gmail.com",
     "phoneForTel": "555-779-4407",
     "phoneFormatted": "(555) 779-4407",
     "address": {
-        "lineOne": "First Address Line",
-        "lineTwo": "Second Address Line",
-        "city": "Denver",
-        "state": "CO",
-        "zip": "80206",
-        "mapLink": "https://goo.gl/maps/UAQn4vuGDiwv7DV39"
+        "lineOne": "Atlanta",
+        "lineTwo": "",
+        "city": "Georgia",
+        "state": "US",
+        "zip": "30327",
+        "mapLink": "https://www.bing.com/maps?where=Atlanta%20%2C%20Georgia%20%2030327%2C%20US"
     },
     "domain": "https://www.codestitch.app"
 }
