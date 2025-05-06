@@ -201,7 +201,7 @@
   #dark-mode-toggle {
     z-index: 1000;
     position: absolute;
-    /* top: 0.625rem; */
+    top: 0.625rem;
     right: 4.375rem;
     display: block;
     border: none;
@@ -783,7 +783,6 @@
   }
   body.dark-mode #cs-navigation .cs-logo {
     /* makes it turn white */
-    filter: grayscale(1) brightness(1000%);
   }
   body.dark-mode #cs-navigation .cs-li-link {
     color: var(--bodyTextColorWhite);
